@@ -1,0 +1,7 @@
+/* Nemo translucent (25%) */
+.nemo-window, .nemo-window .background, .nemo-window notebook, .nemo-window notebook stack,
+.nemo-window .view, .nemo-window treeview, .nemo-window iconview, .nemo-window scrolledwindow,
+.nemo-window .sidebar, .nemo-window placessidebar, .nemo-window .nemo-places-sidebar { background-color: rgba(11,11,13,0.75); }
+.nemo-window .view:selected, .nemo-window iconview:selected { background-color: rgba(100,16,31,0.85); }
+/* keep desktop clean */
+.nemo-desktop, .nemo-desktop-window, .nemo-desktop-window *, .nemo-desktop.nemo-canvas-item, .nemo-desktop .view, .nemo-desktop-window .view { background-color: transparent; }

@@ -1,0 +1,10 @@
+/* Crimson overrides */
+@define-color theme_bg_color #0B0B0D; @define-color theme_base_color #121215;
+@define-color theme_fg_color #E8E2E3; @define-color theme_text_color #E8E2E3;
+@define-color theme_selected_bg_color #B51F3B; @define-color theme_selected_fg_color #E8E2E3;
+window, .background { background-color:#0B0B0D; color:#E8E2E3; }
+headerbar, .titlebar { background:#0B0B0D; border-bottom:1px solid #64101F; color:#E8E2E3; }
+.view, textview text, treeview { background-color:#121215; color:#E8E2E3; }
+*:selected, .view:selected, selection { background-color:#64101F; color:#E8E2E3; }
+button.suggested-action, switch:checked, checkbutton check:checked, radiobutton radio:checked, scale highlight, progressbar progress { background:#B51F3B; border-color:#64101F; color:#E8E2E3; }
+.sidebar, placessidebar { background-color:#0E0E11; }

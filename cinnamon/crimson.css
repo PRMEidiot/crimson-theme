@@ -1,0 +1,12 @@
+/* Crimson panel & menus */
+.panel-top,.panel-bottom,.panel-left,.panel-right,#panel { background-color:#0B0B0D; color:#E8E2E3; }
+.menu,.popup-menu-boxpointer,.menu-favorites-box,.menu-places-box { background-color:#0B0B0D; border-color:#64101F; color:#E8E2E3; }
+.popup-menu-item:active,.menu-application-button-selected,.menu-category-button-selected { background-color:#B51F3B; color:#E8E2E3; }
+#panel, .panel-bottom { background-color: rgba(11,11,13,0.92); border-top: 1px solid #64101F; box-shadow: 0 -2px 8px rgba(0,0,0,0.6); font-weight: 500; }
+.applet-box { padding: 0 6px; border-radius: 6px; transition-duration: 150ms; }
+.applet-box:hover { background-color: rgba(100,16,31,0.55); }
+.grouped-window-list-item-box { border-radius: 6px; margin: 4px 1px; }
+.grouped-window-list-item-box:active, .grouped-window-list-item-box:checked { background-color: rgba(100,16,31,0.6); border-bottom: 2px solid #B51F3B; }
+.grouped-window-list-item-box:hover { background-color: rgba(181,31,59,0.25); }
+.applet-label, #panel .clock-display { color: #E8E2E3; letter-spacing: 1px; }
+.menu, .popup-menu-boxpointer { border-radius: 10px; border: 1px solid #64101F; }

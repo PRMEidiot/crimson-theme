@@ -1,0 +1,4 @@
+QToolTip{color:#E8E2E3;background-color:#64101F;border:1px solid #B51F3B;}
+QToolBar{background:#0B0B0D;border-bottom:1px solid #64101F;}
+QPushButton:hover,QToolButton:hover{background:#64101F;}
+QScrollBar::handle{background:#64101F;}
